@@ -104,6 +104,20 @@ nav{
     font-size: 20;
     margin-top: 0px;
 }
+@media screen and (max-width: 576px) {
+    
+ 
+    .banner-hero{
+        flex-direction:column-reverse;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-container{
+        padding: 15px;
+    }
+    
+}
 .curiculum-container{
  
     border-radius: 16px;
@@ -154,6 +168,8 @@ nav{
     gap: 10px; 
     margin-top: 50px;
   }
+
+  
   
   
   .nav-button {
@@ -170,6 +186,102 @@ nav{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     cursor: pointer;
   
+  }
+  .storycard{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    
+    
+  }
+  .storycard-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+.story-btn1{
+    padding: 10px 24px;
+    border-radius: 16px;
+    border: none;
+    background-color: skyblue;
+    font-weight: bold;
+    
+    
+}
+
+
+
+#story-btn2{
+    padding: 10px 24px;
+    border-radius: 16px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top: -50px;
+    
+    
+   
+
+}
+  
+.story-btn3{
+    padding: 10px 24px;
+    border-radius: 16px;
+    border: none;
+    background-color: orange;
+    font-weight: bold;
+    
+}
+  
+.story-btn4{
+    padding: 10px 24px;
+    border-radius: 16px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    
+}
+.story-btn5{
+    padding: 10px 24px;
+    border-radius: 16px;
+    border: none;
+    background-color: bisque;
+    font-weight: bold;
+}
+.storycard1{
+    
+    background-color: white;
+    border-radius: 16px;
+    width: 50%;
+    
+    
+
+   
+    
+
+}
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.storycard1  img{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+  .kidsedubag{
+    display: flex;
+  }
+  .kiticons{
+    display: flex;
   }
   
 
@@ -188,6 +300,9 @@ nav{
     }
     .navigation-buttons{
         display: none;
+    }
+    .storycard{
+        flex-direction: column;
     }
     
     
