@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+/* shared colours */
+.orange{
+    color: orange;
+}
+.skyblue{
+    color: rgba(5, 212, 223, 1);
+}
+.violet{
+  color: rgba(93, 88, 239, 1);
+}
+.lightblue{
+    color: rgba(5, 212, 223, 1);
+}
+/* style for header */
+.navigation{
+    border: 1px solid black;
+    
+    
+   
+}
+.enrol{
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 26px 140px; */
+    max-width: 1440px;
+    margin: 0 auto;
+
+    
+    
+}
+.nav1{
+    display: flex;
+    align-items: center;
+
+}
+.nav2 > ul > li{
+    font-size: 18px;
+    
+    list-style: none;
+    margin-right: 30px;
+}
+ .nav2 > ul {
+    display: flex;
+   
+    
+}
+.Contact{
+    color: white;
+    font-weight:600;
+    padding: 10px 58px;
+    background-color: orange;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+}
+.school{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* banner style starts */
+.banner-hero{
+    /* max-width: 1440px;
+    margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner-container  {
+    
+    
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.banner-subtitle{
+    font-size: 20;
+    margin-top: 0px;
+}
+.curiculum-container{
+ 
+    border-radius: 16px;
+    border: none;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 30px;
+    
+
+}
+.curiculum-card{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.curri-gradient-1{
+    background: linear-gradient( orange, white);
+    border: 1px solid orange;
+}
+.curri-gradient-2{
+    background: linear-gradient( skyblue, white);
+    border: 1px solid skyblue;
+}
+.curri-gradient-3{
+    background: linear-gradient(violet, white);
+    border: 1px solid violet;
+}
+.Standard-Curriculum{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 10px; 
+    margin-top: 50px;
+  }
+  
+  
+  .nav-button {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 50%; 
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  
+  }
+  
+
+
+  
+
+
+
+
+
+/* res for curriculum */
+@media screen and (max-width:576px) {
+    .curiculum-card{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .navigation-buttons{
+        display: none;
+    }
+    
+    
+}
